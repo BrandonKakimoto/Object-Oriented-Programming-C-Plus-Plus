@@ -8,8 +8,8 @@ using namespace std;
  * @param v - vector of integers
  */
 
-void printMemVec(){
-
+void printMemVec(vector<int> v[]){
+    printf("Vector - Each int is worth %lu bytes\n", vec.size());
 }
 
 /**
@@ -17,7 +17,7 @@ void printMemVec(){
  * 
  * @param v - address to a vector of integers
  */
-void incVecBy10(...){
+void incVecBy10(vector<int>& vec){
 
 }
 
