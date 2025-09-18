@@ -1,7 +1,7 @@
 /*
 ECE 2310 Fall 2025 - CPP
 Lab #1
-Brandon Kkaimoto 018075408
+Brandon Kakimoto 018075408
 8/26/2025
 */
 
