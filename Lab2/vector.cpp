@@ -8,7 +8,7 @@ using namespace std;
  * @param v - vector of integers
  */
 
-void printMemVec(vector<int> v){
+void printMemVec(const vector<int> v){
     printf("Vector - Each int is worth %lu bytes\n", sizeof(int));
     for(int i=0; i < v.size(); i++) {
         printf("Value: %i at Memory Location %p\n", v[i], &v[i]);
