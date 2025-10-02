@@ -27,7 +27,7 @@ int main() {
     cout << "\n0 is dead, 1 is alive\n";
     
     // CALL isAlive() on both p1 and p2
-    cout << p1.isAlive() << " " << p2.isAlive() << "\n";
+    cout << p1.getName() << ": " << p1.isAlive() << " " << p2.getName() << ": " << p2.isAlive() << "\n";
 
     return 0;
 }
